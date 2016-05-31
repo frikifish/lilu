@@ -1,6 +1,5 @@
 Lilu::Application.routes.draw do
-  match '/', to: 'static_pages#under_construction', via: 'get'
-  match '/home', to: 'static_pages#home', via: 'get'
+  match '/', to: 'static_pages#home', via: 'get'
   get "static_pages/help"
   # The priority is based upon order of creation:
   # See how all your routes lay out with "rake routes".
